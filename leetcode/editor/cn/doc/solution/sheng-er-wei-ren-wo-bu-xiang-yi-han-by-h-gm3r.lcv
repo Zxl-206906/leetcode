@@ -1,0 +1,69 @@
+### 解题思路
+
+寻找中位数根据数组长度分为两种情况(A[m]，B[n])：
+1.两数组长度相加为奇数：则中位数为：第 (m+n)/2个元素
+2.两数组长度相加为偶数：则中位数为：第 (m+n)/2个元素和第(m+n)/2+1个元素之和除以2.0
+思路分析：
+利用二分查找的方式，排除不满足条件的元素，（java代码中定义数组的偏移量，动态改变原数组长度）
+找第k个元素的方法：比较A[k/2-1]和B[k/2−1]
+(理解为什么选k/2-1):由于 A[k/2−1] 和 B[k/2−1] 的前面分别有 A[0..k/2−2] 和 B[0..k/2−2]，即 k/2-1个元素，对于 A[k/2−1] 和B[k/2−1] 中的较小值，最多只会有 (k/2-1)+(k/2-1) => k-2个元素比它小，那么它就不能是第 k 小的数了,可全部排除。
+两种比较情况
+一、A[k/2-1]<=B[k/2-1],则排除A[0]到A[k/2-1]的数。(排除了k/2个元素，下次排查时k-=k/2)
+二、A[k/2-1]>B[k/2-1],则排除B[0]到B[k/2-1]的数。(排除了k/2个元素，下次排查时k-=k/2)
+特殊情况，特殊处理：
+一、当A[k/2-1]或B[k/2-1]发生数组越界，此时取数组最后一个元素进行比较。（排除了1个元素，下次排查k的值：k-=1）
+二、某一个数组为空，这个简单，直接取第二个数组的第k个元素。
+三、k=1,此时已没法进行下次排查了（此时k/2-1=0），说明已经找到了所需元素，返回两数组中首元素的最小值。
+
+### 代码
+
+class Solution {
+public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+int lengthOne = nums1.length;
+int lengthTwo = nums2.length;
+if((lengthOne+lengthTwo)%2 == 1){
+return getResultElement(nums1,nums2,(lengthOne+lengthTwo)/2+1);
+}else{
+return (getResultElement(nums1,nums2,(lengthOne+lengthTwo)/2)+getResultElement(nums1,nums2,(lengthOne+lengthTwo)/2+1))/2.0;
+}
+}
+
+    private int getResultElement(int[] nums1, int[] nums2,int k){
+        int lengthOne = nums1.length;
+        int lengthTwo = nums2.length;
+        //偏移量，注意比数组的下标大1.
+        int indexOne = 0;
+        int indexTwo = 0;
+        while(true){
+            if(indexOne>=lengthOne){
+                return nums2[indexTwo+k-1];
+            }
+            if(indexTwo>=lengthTwo){
+                return nums1[indexOne+k-1];
+            }
+            if(k==1){
+                return Math.min(nums1[indexOne],nums2[indexTwo]);
+            }
+
+            //这种方式就是没有考虑数组越界
+            //int newLengthOne = indexOne+k/2-1;
+            //int newLengthTwo =indexTwo+k/2-1;
+            //判断下次查找的数组下标缩影是否越界，如果越界，选取对应数组中的最后一个元素。在这种情况下，我们必须根据排除数的个数减少 k 的值，而不能直接将 k 减去 k/2。
+            int newLengthOne = Math.min(indexOne+k/2,lengthOne)-1;
+            int newLengthTwo = Math.min(indexTwo+k/2,lengthTwo)-1;
+            int proOne = nums1[newLengthOne];
+            int proTwo = nums2[newLengthTwo];
+            if(proOne<=proTwo){
+                //如果 A[k]/2−1] 或者B[k/2−1] 越界，选取对应数组中的最后一个元素。在这种情况下，我们必须根据排除数的个数减少 k 的值，而不能直接将 k 减去 k/2。  
+                //此处就可以分为两种情况：1.不越界直接k-=k/2  2.越界：k-=length-index
+                k-= (newLengthOne-indexOne+1);
+                indexOne= newLengthOne +1 ;
+            }else{
+                k-= (newLengthTwo-indexTwo+1);
+                indexTwo= newLengthTwo +1;
+            }
+        }
+    }
+
+}
+

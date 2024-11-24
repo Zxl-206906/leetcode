@@ -1,0 +1,31 @@
+# 关键点
+
+- 只要"("没用完，就可以加入"("
+- 只要")"剩余数量大于"("，就可以加入")"
+
+# 代码实现
+
+* 
+
+```
+class Solution {
+    public List<String> generateParenthesis(int n) {
+        List<String> result = new ArrayList<>();
+        generate(result, "", n, n);
+        return result;
+    }
+    private void generate(List<String> result, String s, int leftRemain, int rightRemain) {
+        if (leftRemain == 0 && rightRemain == 0) {
+            result.add(s);
+            return;
+        }
+        if (leftRemain > 0) {
+            generate(result, s + "(", leftRemain - 1, rightRemain);
+        }
+        if (rightRemain > leftRemain) {
+            generate(result, s + ")", leftRemain, rightRemain - 1);
+        }
+    }
+}
+```
+

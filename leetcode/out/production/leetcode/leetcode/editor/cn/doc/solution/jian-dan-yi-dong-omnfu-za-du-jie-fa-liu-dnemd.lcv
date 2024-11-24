@@ -1,0 +1,41 @@
+### 解题思路
+
+O(log(m+n))的解法暂时没想出来，姑且先用O(m+n)的方法解一下。
+简单来说，就是合并数组，然后取数组中间的值
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        //合并数组
+        int[] newArray = arrayMerge(nums1,nums2);
+        //合并数组后取出数组中间位置的数
+        int mid_position=newArray.length/2;
+        if(newArray.length%2 == 1){
+            return newArray[mid_position];
+        }else{
+            return (double)(newArray[mid_position]+newArray[mid_position-1])/2;
+        }
+    }
+    public int[] arrayMerge(int[] nums1, int[] nums2){
+        int array_1_tag=0;
+        int array_2_tag=0;
+        int max_length=nums1.length+nums2.length;
+        int[] mergeArray=new int[max_length];
+        for(int i=0;i<max_length;i++){
+            if(array_2_tag<nums2.length&&(array_1_tag>=nums1.length||nums1[array_1_tag]>nums2[array_2_tag])){
+                mergeArray[i]=nums2[array_2_tag];
+                array_2_tag++;
+            }else{
+                mergeArray[i]=nums1[array_1_tag];
+                array_1_tag++;
+            }
+        }
+        return mergeArray;
+    }
+}
+```
+

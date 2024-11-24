@@ -1,0 +1,13 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        //数字转字符串
+        String str = String.valueOf(x);
+        //把字符串放入StringBuilder中
+        StringBuilder sb = new StringBuilder(str);
+        //利用StringBuilder的reverse方法翻转字符串然后调用equals方法比较两个字符串是否相等
+        return sb.reverse().toString().equals(str);
+    }
+}
+
+//runtime:7 ms
+//memory:43.1 MB
