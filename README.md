@@ -23,3 +23,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 1. Clone 仓库：
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+
+2. 题库具体完成情况，请点入leetcode目录，查看README.md文件
