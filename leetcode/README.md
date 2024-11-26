@@ -42,3 +42,6 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T41_FirstMissingPositive
    - T42_TrappingRainWater 14:34
 
+#### 2. 2024年11月26日
+  - T33_SearchInRotatedSortedArray
+  - T43_MultiplyStrings
