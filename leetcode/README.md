@@ -30,7 +30,7 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
     - T_编号_题目英文名称是所对应的Java源码
     - 进行排序了，请自行官网查找题目，找到本仓库所对应的题目代码以及解析(比如T743_NetworkDelayTime代表的就是Leetcode题目743，后面如果有数字2的话表示第二种解法，对应的文档在doc目录下，命名保持同步)
 
-### 题目完成情况
+### 题目完成情况  对应的解答文档在doc目录下面的content文件夹里
 
 #### 1. 2024年11月25日
 
@@ -42,8 +42,9 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T41_FirstMissingPositive
    - T42_TrappingRainWater 14:34
 
-#### 2. 2024年11月26日
+#### 2. 2024年11月26日 
   - T33_SearchInRotatedSortedArray
   - T43_MultiplyStrings
   - T34_FindFirstAndLastPositionOfElementInSortedArray  方式一（两个for循环--》没考虑时间复杂度）
   - T34_FindFirstAndLastPositionOfElementInSortedArray2 方式二（二分查找）
+  - T44_WildcardMatching（测试用例没有全过） 11:27
