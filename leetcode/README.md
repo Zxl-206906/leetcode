@@ -49,3 +49,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
   - T34_FindFirstAndLastPositionOfElementInSortedArray2 方式二（二分查找）
   - T44_WildcardMatching（测试用例没有全过） 11:27
   - T45_JumpGameIi 15:55
+  - T46_Permutations
+  - T47_PermutationsIi 16:21
