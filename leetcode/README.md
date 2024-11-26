@@ -45,3 +45,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 #### 2. 2024年11月26日
   - T33_SearchInRotatedSortedArray
   - T43_MultiplyStrings
+  - T34_FindFirstAndLastPositionOfElementInSortedArray  方式一（两个for循环--》没考虑时间复杂度）
+  - T34_FindFirstAndLastPositionOfElementInSortedArray2 方式二（二分查找）
