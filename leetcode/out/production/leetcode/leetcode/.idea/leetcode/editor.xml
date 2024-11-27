@@ -300,6 +300,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T34_FindFirstAndLastPositionOfElementInSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T34_FindFirstAndLastPositionOfElementInSortedArray.md" />
+              <option name="frontendQuestionId" value="leetcode.cn34" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T34_FindFirstAndLastPositionOfElementInSortedArray.java" />
+              <option name="titleSlug" value="find-first-and-last-position-of-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T35_SearchInsertPosition.java">
           <value>
             <LeetcodeEditor>
@@ -385,6 +396,61 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/T43_MultiplyStrings.java" />
               <option name="titleSlug" value="multiply-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T44_WildcardMatching.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T44_WildcardMatching.md" />
+              <option name="frontendQuestionId" value="leetcode.cn44" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T44_WildcardMatching.java" />
+              <option name="titleSlug" value="wildcard-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T45_JumpGameIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T45_JumpGameIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn45" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T45_JumpGameIi.java" />
+              <option name="titleSlug" value="jump-game-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T46_Permutations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T46_Permutations.md" />
+              <option name="frontendQuestionId" value="leetcode.cn46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T46_Permutations.java" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T47_PermutationsIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T47_PermutationsIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn47" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T47_PermutationsIi.java" />
+              <option name="titleSlug" value="permutations-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T48_RotateImage.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T48_RotateImage.md" />
+              <option name="frontendQuestionId" value="leetcode.cn48" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T48_RotateImage.java" />
+              <option name="titleSlug" value="rotate-image" />
             </LeetcodeEditor>
           </value>
         </entry>

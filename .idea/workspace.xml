@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd05b67a-1bdb-44b8-8fe8-3799ab812e3a" name="更改" comment="" />
+    <list default="true" id="fd05b67a-1bdb-44b8-8fe8-3799ab812e3a" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/T47_PermutationsIi.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/T47_PermutationsIi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/doc/note/T47_PermutationsIi.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/note/T47_PermutationsIi.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -17,9 +23,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2p096dkCFe5GWE6gITRzNYS2bnM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/yjsPaper/工作/Leetcode/leetcode",
     "nodejs_package_manager_path": "npm",
@@ -55,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731891953114</updated>
       <workItem from="1731891953878" duration="32000" />
+      <workItem from="1732706557080" duration="41000" />
     </task>
     <servers />
   </component>

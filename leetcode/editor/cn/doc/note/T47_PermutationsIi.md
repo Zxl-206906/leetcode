@@ -62,7 +62,7 @@ ans = [
 
 在回溯过程中，如果当前数字与前一个数字相同，并且前一个数字还没有被使用（`!used[i-1]`），说明在同一层已经选择过该数字，应该跳过这个选择。
 
-```java
+```text
 if (used[i] || (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])) {
     continue;
 }
@@ -82,7 +82,7 @@ if (used[i] || (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])) {
 
 ok，我们来看完整的题解。
 
-```java
+```text
 class Solution04701 {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
