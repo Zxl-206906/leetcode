@@ -531,6 +531,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T58_LengthOfLastWord.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T58_LengthOfLastWord.md" />
+              <option name="frontendQuestionId" value="leetcode.cn58" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T58_LengthOfLastWord.java" />
+              <option name="titleSlug" value="length-of-last-word" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T632_SmallestRangeCoveringElementsFromKLists.java">
           <value>
             <LeetcodeEditor>
