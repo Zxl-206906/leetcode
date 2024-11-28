@@ -64,3 +64,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
   - T56_MergeIntervals 17:57
   - T57_InsertInterval
   - T58_LengthOfLastWord
+  - T51_NQueens
+  - T52_NQueensII
