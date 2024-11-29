@@ -70,3 +70,7 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 #### 2. 2024年11月29日
   - T60_PermutationSequence
   - T61_RotateList
+  - T66_PlusOne
+  - T69_Sqrtx
+  - T70_ClimbingStairs
+  - T70_ClimbingStairs2
