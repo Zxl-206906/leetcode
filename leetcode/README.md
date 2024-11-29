@@ -66,3 +66,7 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
   - T58_LengthOfLastWord
   - T51_NQueens
   - T52_NQueensII
+
+#### 2. 2024年11月29日
+  - T60_PermutationSequence
+  - T61_RotateList
