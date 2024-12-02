@@ -685,6 +685,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T74_SearchA2dMatrix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T74_SearchA2dMatrix.md" />
+              <option name="frontendQuestionId" value="leetcode.cn74" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T74_SearchA2dMatrix.java" />
+              <option name="titleSlug" value="search-a-2d-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

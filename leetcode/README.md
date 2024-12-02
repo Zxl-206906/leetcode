@@ -80,3 +80,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T71_SimplifyPath 15:03
    - T72_EditDistance 15:47
    - T73_SetMatrixZeroes 15:53
+   - T74_SearchA2dMatrix 16:15
+   - T75_SortColors 16:25
