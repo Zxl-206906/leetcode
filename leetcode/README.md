@@ -77,3 +77,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 
 #### 6. 2024年12月02日
    - T70_ClimbingStairs 使用迭代（动态规划）实现
+   - T71_SimplifyPath 15:03
+   - T72_EditDistance 15:47
