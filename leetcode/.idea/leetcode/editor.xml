@@ -641,6 +641,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T71_SimplifyPath.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T71_SimplifyPath.md" />
+              <option name="frontendQuestionId" value="leetcode.cn71" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T71_SimplifyPath.java" />
+              <option name="titleSlug" value="simplify-path" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T743_NetworkDelayTime.java">
           <value>
             <LeetcodeEditor>
