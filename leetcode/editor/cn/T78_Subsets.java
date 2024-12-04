@@ -5,6 +5,10 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Jerry
+ */
+
 public class T78_Subsets {
     public static void main(String[] args) {
         Solution solution = new T78_Subsets().new Solution();
