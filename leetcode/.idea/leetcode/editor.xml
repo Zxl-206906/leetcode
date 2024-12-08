@@ -762,6 +762,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T81_SearchInRotatedSortedArrayIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T81_SearchInRotatedSortedArrayIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn81" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T81_SearchInRotatedSortedArrayIi.java" />
+              <option name="titleSlug" value="search-in-rotated-sorted-array-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
