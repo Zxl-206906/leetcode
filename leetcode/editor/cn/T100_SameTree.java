@@ -2,8 +2,6 @@ package leetcode.editor.cn;
 
 // Java: 相同的树
 
-import javax.swing.tree.TreeNode;
-
 public class T100_SameTree {
     public static void main(String[] args) {
         Solution solution = new T100_SameTree().new Solution();
@@ -42,6 +40,27 @@ public class T100_SameTree {
      * }
      * }
      */
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
     class Solution {
         // 方法用于比较两个二叉树 p 和 q 是否完全相同
         public boolean isSameTree(TreeNode p, TreeNode q) {
@@ -57,7 +76,6 @@ public class T100_SameTree {
             // 只有当前节点值相等且对应的左子树和右子树也都相等时，才认为整个树相等
             return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
         }
-    }
-
 //leetcode submit region end(Prohibit modification and deletion)
+    }
 }
