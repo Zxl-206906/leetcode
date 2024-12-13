@@ -6,7 +6,6 @@ public class T101_SymmetricTree {
     public static void main(String[] args) {
         Solution solution = new T101_SymmetricTree().new Solution();
         // TO TEST
-
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
