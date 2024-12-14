@@ -125,3 +125,4 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T111_MinimumDepthOfBinaryTree
    - T112_PathSum
    - T113_PathSumIi
+   - T114_FlattenBinaryTreeToLinkedList
