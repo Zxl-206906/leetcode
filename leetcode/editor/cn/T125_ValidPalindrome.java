@@ -6,7 +6,7 @@ public class T125_ValidPalindrome {
     public static void main(String[] args) {
         Solution solution = new T125_ValidPalindrome().new Solution();
         // TO TEST
-
+        System.out.println(solution.isPalindrome("A man, a plan, a canal: Panama"));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)

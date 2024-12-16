@@ -1,4 +1,4 @@
-package leetcode.editor.cn.lock;
+package leetcode.editor.cn.learnSource.lock;
 
 /**
  * @version 1.0
