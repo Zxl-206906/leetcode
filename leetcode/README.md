@@ -144,3 +144,4 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 
 #### 15. 2024年12月17日
    - T109_ConvertSortedListToBinarySearchTree2 有序链表转换为二叉搜索数
+   - T128_LongestConsecutiveSequence 最长连续序列
