@@ -344,6 +344,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T138_CopyListWithRandomPointer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T138_CopyListWithRandomPointer.md" />
+              <option name="frontendQuestionId" value="leetcode.cn138" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T138_CopyListWithRandomPointer.java" />
+              <option name="titleSlug" value="copy-list-with-random-pointer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T13_RomanToInteger .java">
           <value>
             <LeetcodeEditor>
