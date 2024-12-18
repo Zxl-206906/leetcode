@@ -5,9 +5,9 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-public class T144_BinaryTreePreorderTraversal {
+public class T144_BinaryTreePreorderTraversal1 {
     public static void main(String[] args) {
-        Solution solution = new T144_BinaryTreePreorderTraversal().new Solution();
+        Solution solution = new T144_BinaryTreePreorderTraversal1().new Solution();
         // TO TEST
 
     }
