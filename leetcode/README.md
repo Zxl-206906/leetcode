@@ -148,3 +148,6 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T129_SumRootToLeafNumbers 求根节点到叶节点数组之和
    - T141_LinkedListCycle 环形链表
    - T138_CopyListWithRandomPointer 随机链表复制
+
+#### 16. 2024年12月18日
+   - T142_LinkedListCycleIi 环形链表II
