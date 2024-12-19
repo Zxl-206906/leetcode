@@ -476,6 +476,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T147_InsertionSortList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T147_InsertionSortList.md" />
+              <option name="frontendQuestionId" value="leetcode.cn147" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T147_InsertionSortList.java" />
+              <option name="titleSlug" value="insertion-sort-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T14_LongestCommonPrefix .java">
           <value>
             <LeetcodeEditor>
