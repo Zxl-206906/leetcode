@@ -322,6 +322,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T133_CloneGraph.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T133_CloneGraph.md" />
+              <option name="frontendQuestionId" value="leetcode.cn133" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T133_CloneGraph.java" />
+              <option name="titleSlug" value="clone-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T136_SingleNumber.java">
           <value>
             <LeetcodeEditor>
