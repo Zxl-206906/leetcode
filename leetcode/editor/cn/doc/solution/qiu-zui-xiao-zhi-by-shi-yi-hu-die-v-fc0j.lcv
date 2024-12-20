@@ -1,0 +1,10 @@
+感觉和题目说的没有关系，就是求最小值
+
+* 
+
+```
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        return min(nums)
+```
+
