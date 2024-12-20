@@ -30,6 +30,7 @@ public class T153_FindMinimumInRotatedSortedArray {
 
             // 循环结束时，left == right
             return nums[left];
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
