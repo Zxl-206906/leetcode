@@ -520,6 +520,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T151_ReverseWordsInAString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T151_ReverseWordsInAString.md" />
+              <option name="frontendQuestionId" value="leetcode.cn151" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T151_ReverseWordsInAString.java" />
+              <option name="titleSlug" value="reverse-words-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T15_ThreeSum .java">
           <value>
             <LeetcodeEditor>

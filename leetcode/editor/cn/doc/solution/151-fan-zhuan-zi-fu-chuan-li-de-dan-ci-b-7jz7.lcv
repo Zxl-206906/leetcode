@@ -1,0 +1,36 @@
+### 解题思路
+
+双指针法。stringbuilder类存储结果。
+从右往左遍历，右指针指向第一个非空字母，左指针从右指针开始往左遍历，指向第一个空值；
+左指针未越界，则截取（左+1，右+1）；
+左指针越界，则截取（0，右+1）。
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public String reverseWords(String s) {
+        int len = s.length();
+        char[] cs = s.toCharArray();
+        int left = 0,right = len - 1;
+        StringBuilder sb = new StringBuilder();
+        while(right>=0){
+            while(right>=0 && cs[right]==' ') right--;
+            if(right<0) break;
+            left = right;
+            while(left>=0 && cs[left]!=' ') left--;
+            if(left<0){
+                sb.append(s.substring(0,right+1));
+                break;
+            }
+            sb.append(s.substring(left+1,right+1));
+            sb.append(' ');
+            right = left-1;
+        }
+        return sb.toString().trim();
+    }
+}
+```
+
