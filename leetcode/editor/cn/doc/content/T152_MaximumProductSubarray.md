@@ -93,3 +93,69 @@ public class Solution {
 ### 复杂度分析：
 - **时间复杂度**：O(n)，其中 n 是数组的长度。我们只需要一次遍历来计算最大乘积。
 - **空间复杂度**：O(1)，我们只使用常数空间来存储几个变量。
+
+
+从你的描述来看，问题出在当数组中有零时，我们应该把零当作一个新的子数组的起点，跳过它并重新计算乘积。然而在原始的解法中，零的处理没有被单独考虑，因此即使遇到零，`maxSoFar` 和 `minSoFar` 也会被更新为零，从而导致错误结果。
+
+### 问题分析：
+- 当遇到零时，零会使得当前子数组的乘积变成零，因此需要将 `maxSoFar` 和 `minSoFar` 重新初始化为零，表示从该位置开始重新计算子数组的乘积。
+- 如果整个子数组都乘积为零，应该返回零。
+
+### 修改后的解决方案：
+1. **遇到零时初始化最大乘积和最小乘积**：遇到零时，重新初始化 `maxSoFar` 和 `minSoFar` 为零，这样我们从零的位置开始重新计算乘积。
+2. **维护最大值**：我们还需要继续维护全局最大值 `result`，它记录的是从整个数组中得到的最大乘积。
+
+### 代码实现：
+```java
+public class Solution {
+    public int maxProduct(int[] nums) {
+        // 初始化最大值和最小值
+        int maxSoFar = nums[0];
+        int minSoFar = nums[0];
+        int result = nums[0];
+        
+        // 从第二个元素开始遍历
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                // 如果遇到零，重新初始化当前子数组的乘积
+                maxSoFar = 0;
+                minSoFar = 0;
+            } else {
+                // 如果当前元素是负数，交换最大值和最小值
+                if (nums[i] < 0) {
+                    int temp = maxSoFar;
+                    maxSoFar = minSoFar;
+                    minSoFar = temp;
+                }
+                
+                // 更新当前的最大值和最小值
+                maxSoFar = Math.max(nums[i], maxSoFar * nums[i]);
+                minSoFar = Math.min(nums[i], minSoFar * nums[i]);
+            }
+            
+            // 更新全局最大值
+            result = Math.max(result, maxSoFar);
+        }
+        
+        return result;
+    }
+}
+```
+
+### 解释：
+1. **遇到零**：如果 `nums[i] == 0`，我们将 `maxSoFar` 和 `minSoFar` 都重新初始化为 0，因为任何数字与零相乘都会得到零，从而中断当前子数组的积。
+2. **负数处理**：如果当前元素是负数，我们交换 `maxSoFar` 和 `minSoFar`，因为负数可能将最小的乘积变成最大乘积。
+3. **最大乘积计算**：通过更新 `maxSoFar` 和 `minSoFar`，并在每次更新时维护全局最大乘积 `result`。
+
+### 测试：
+对于输入 `[-2, 0]`：
+- 初始时：`maxSoFar = -2`, `minSoFar = -2`, `result = -2`
+- 遍历第一个元素 `-2`，`maxSoFar = -2`, `minSoFar = -2`
+- 遍历第二个元素 `0`，由于遇到零，`maxSoFar = 0`, `minSoFar = 0`
+- 结果为 `0`，符合期望。
+
+### 复杂度分析：
+- **时间复杂度**：O(n)，只需遍历一次数组。
+- **空间复杂度**：O(1)，只使用常数空间来保存变量。
+
+这样，处理零的情况就能正确返回期望的结果了。
