@@ -630,6 +630,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T165_CompareVersionNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T165_CompareVersionNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn165" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T165_CompareVersionNumbers.java" />
+              <option name="titleSlug" value="compare-version-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T168_ExcelSheetColumnTitle.java">
           <value>
             <LeetcodeEditor>
