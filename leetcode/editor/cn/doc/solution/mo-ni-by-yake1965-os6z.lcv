@@ -1,0 +1,87 @@
+> Problem: [166. 分数到小数](https://leetcode.cn/problems/fraction-to-recurring-decimal/description/)
+
+* []
+
+```Java
+class Solution {
+    public String fractionToDecimal(int numerator, int denominator) {
+        StringBuilder res = new StringBuilder();
+        // 正负号
+        boolean isPositive = ((numerator < 0 && denominator > 0) || (numerator > 0 && denominator < 0)) ? false : true;
+        res.append(isPositive ? "" : "-");
+        long num = Math.abs((long) numerator);
+        long den = Math.abs((long) denominator);
+
+        // 整数部分
+        long intPart = num / den;
+        res.append(intPart);
+        num = num % den;
+        if (num == 0) return res.toString();
+        res.append(".");
+
+        // 约掉公约数
+        long[] nums = clearSameFactor(num, den);
+
+        // 处理除数中的 2 和 5
+        while (nums[1] % 10 == 0) {
+            nums[1] /= 10;
+            if (nums[0] < nums[1]) res.append("0");
+            else {
+                res.append(nums[0] / nums[1]);
+                nums[0] = nums[0] % nums[1];
+            }
+        }
+        while (nums[1] % 2 == 0) {
+            nums[1] = nums[1] >> 1;
+            nums[0] *= 5;
+            res.append(nums[0] / nums[1]);
+            nums[0] = nums[0] % nums[1];
+        }
+        while (nums[1] % 5 == 0) {
+            nums[1] /= 5;
+            nums[0] = nums[0] << 1;
+            res.append(nums[0] / nums[1]);
+            nums[0] = nums[0] % nums[1];
+        }
+
+        // 处理循环小数部分
+        if (nums[0] > 0) {
+            res.append("(");
+            int cycleLength = findCycleLength(nums[1]);
+            for (int i = 0; i < cycleLength; i++) {
+                nums[0] *= 10;
+                res.append(nums[0] / nums[1]);
+                nums[0] = nums[0] % nums[1];
+            }
+            res.append(")");
+        }
+        return res.toString();
+    }
+
+    private long[] clearSameFactor(long num, long den) {
+        long gcd = gcd(num, den);
+        return new long[]{num / gcd, den / gcd};
+    }
+
+    public long gcd(long a, long b) {// 辗转相除法
+        long c = a % b;   
+        while (c != 0) {  
+            a = b;         
+            b = c;
+            c = a % b;
+        }
+        return b;
+    }
+
+    private int findCycleLength(long den) {
+        long mod = 9 % den;
+        int len = 1;
+        while (mod > 0) {
+            mod = (mod * 10 + 9) % den;
+            len++;
+        }
+        return len;
+    }
+}
+```
+

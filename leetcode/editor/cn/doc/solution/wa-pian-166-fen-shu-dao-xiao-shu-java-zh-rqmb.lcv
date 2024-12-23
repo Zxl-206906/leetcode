@@ -1,0 +1,58 @@
+### 解题思路
+
+1. 确定符号
+2. 追加整数部分
+3. 如果存在余数, 追加小数部分
+
+追加小数部分
+1. 追加一个`.`
+2. 记录当前余数的值,以及当前余数时,结果长度
+3. 末尾填0,求余求整
+4. 整数部分追加到小数部分
+5. 判断余数是否出现过,如果出现,后续开始循环,此时在第一次出现余数的结果后面插入`(`,结尾追加`)`,break出无限循环.
+
+余数自然等于0时,小数没有循环节.
+类似算数相关的Integer.MIN_VALUE简直恶趣味, int 升级到 long
+
+by 瓦片
+
+### 代码
+
+* java
+
+```java
+class Solution {
+	public String fractionToDecimal(int numerator, int denominator) {
+		// 类似算数相关的Integer.MIN_VALUE简直恶趣味, int 升级到 long
+		long ln = numerator;// ~
+		long ld = denominator;// ~
+		// 如果本身能够整除，直接返回计算结果
+		if (ln % ld == 0)// ~
+			return String.valueOf(ln / ld);
+		// 转成正数算除法
+		ln = ln > 0 ? ln : -ln;
+		ld = ld > 0 ? ld : -ld;
+		// 结果字符串
+		StringBuffer ans = new StringBuffer();
+		// 添加符号
+		if ((numerator ^ denominator) < 0) {
+			ans.append("-");
+		}
+		ans.append(ln / ld).append(".");// 添加整数部分 ~// 添加小数点
+		long m = ln % ld;// 检查余数
+		Map<Long, Integer> map = new HashMap<Long, Integer>();
+		while (m != 0) {// ~
+			map.put(m, ans.length());//~ 余数第一次出现时,字符串已经有多长
+			m *= 10;// 补0
+			ans.append(m / ld);// 不够除自然d=0,添加一个0
+			m %= ld;// ~
+			if (map.containsKey(m)) {// 余数再次出现,预示着即将开始循环
+				ans.insert(map.get(m), "(").append(")");// 在第一次出现的位置插入左括号,追加右括号,跳出循环
+				break;
+			}
+		}
+		return ans.toString();
+	}
+}
+```
+
