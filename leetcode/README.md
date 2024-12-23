@@ -185,3 +185,4 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 #### 20. 2024年12月23日
    - T166_FractionToRecurringDecimal 分数到小数
    - T169_MajorityElement 多数元素
+   - T171_ExcelSheetColumnNumber 表列序号 
