@@ -663,6 +663,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T169_MajorityElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T169_MajorityElement.md" />
+              <option name="frontendQuestionId" value="leetcode.cn169" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T169_MajorityElement.java" />
+              <option name="titleSlug" value="majority-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T16_ThreeSumClosest.java">
           <value>
             <LeetcodeEditor>

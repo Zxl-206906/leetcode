@@ -181,6 +181,7 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T164_MaximumGap 最大间距
    - T168_ExcelSheetColumnTitle Excel表列名称
    - T165_CompareVersionNumbers 比较版本号
-   - 
+
 #### 20. 2024年12月23日
-   - - T166_FractionToRecurringDecimal 分数到小数
+   - T166_FractionToRecurringDecimal 分数到小数
+   - T169_MajorityElement 多数元素
