@@ -189,3 +189,6 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T172_FactorialTrailingZeroes 阶乘后的零
    - T2545_SortTheStudentsByTheirKthScore 根据第K场考试的分数排序
    - T176_SecondHighestSalary 第二高薪水 （MySQL两种实现方式）
+
+#### 21. 2024年12月24日
+   - T177_NthHighestSalary 第N高的薪水
