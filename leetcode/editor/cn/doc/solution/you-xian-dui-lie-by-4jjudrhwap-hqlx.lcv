@@ -1,0 +1,47 @@
+# 优先队列
+
+## 解题思路
+
+因为每天只需要一个苹果，但每天可能有多个苹果过期。因此，需要一种数据结构，根据贪心的思想，每次返回最快过期的苹果，且需要不断地进行更新。由此，可以想到堆，及优先队列。
+1. 如果队列不空，则取出符合要求的一堆苹果
+2. 如果当前苹果堆中的苹果数量不为0，且未过期，则重新放入队列
+3. 判断当前是否数组中还有苹果堆，如果有，则放入队列。
+4. 让当前日期向后走一天
+
+## 代码实现
+
+* java
+
+```java
+class Solution {
+    public int eatenApples(int[] apples, int[] days) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+        int res = 0;
+        int day = 0;    // 当前日期
+        while(!pq.isEmpty() || day < apples.length ){
+
+            // 判断数组中是否还有苹果可以加入
+            if(day < apples.length && apples[day] != 0){
+                pq.add(new int[]{apples[day], days[day] + day});
+            }
+
+            // 找到第一个符合要求的苹果
+            int[] dayApple = pq.poll();
+            while(dayApple != null && dayApple[1] <= day){
+                dayApple = pq.poll();
+            }
+            
+            // 判断该苹果堆是否还需要入队
+            if(dayApple != null){
+                res++;
+                if(--dayApple[0] > 0 && day < dayApple[1]) pq.add(dayApple);
+            }
+
+            day++;
+        }
+
+        return res;
+    }
+}
+```
+

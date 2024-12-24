@@ -685,6 +685,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T1705_MaximumNumberOfEatenApples.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T1705_MaximumNumberOfEatenApples.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1705" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T1705_MaximumNumberOfEatenApples.java" />
+              <option name="titleSlug" value="maximum-number-of-eaten-apples" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T171_ExcelSheetColumnNumber.java">
           <value>
             <LeetcodeEditor>
