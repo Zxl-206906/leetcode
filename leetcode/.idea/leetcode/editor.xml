@@ -740,6 +740,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T179_LargestNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T179_LargestNumber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn179" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T179_LargestNumber.java" />
+              <option name="titleSlug" value="largest-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T17_LetterCombinationsOfAPhoneNumber.java">
           <value>
             <LeetcodeEditor>
