@@ -729,6 +729,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T178_RankScores.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T178_RankScores.md" />
+              <option name="frontendQuestionId" value="leetcode.cn178" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T178_RankScores.java" />
+              <option name="titleSlug" value="rank-scores" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T17_LetterCombinationsOfAPhoneNumber.java">
           <value>
             <LeetcodeEditor>
