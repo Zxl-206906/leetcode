@@ -179,7 +179,7 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
 
 #### 19. 2024年12月22日
    - T164_MaximumGap 最大间距
-   - T168_ExcelSheetColumnTitle Excel表列名称
+   - T168_ExcelSheetColumnTitle Excel表列名称 
    - T165_CompareVersionNumbers 比较版本号
 
 #### 20. 2024年12月23日
@@ -191,7 +191,10 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T176_SecondHighestSalary 第二高薪水 （MySQL两种实现方式）
 
 #### 21. 2024年12月24日
-   - T177_NthHighestSalary 第N高的薪水
+   - T177_NthHighestSalary 第N高WX的薪水
    - T178_RankScores 分数排名
    - T179_LargestNumber 最大数
    - T1705_MaximumNumberOfEatenApples 吃苹果的最大数目
+
+#### 22. 2024年12月25日
+   - T180_ConsecutiveNumbers 连续出出现的数字 

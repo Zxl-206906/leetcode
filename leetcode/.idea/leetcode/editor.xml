@@ -773,6 +773,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T180_ConsecutiveNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T180_ConsecutiveNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn180" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T180_ConsecutiveNumbers.java" />
+              <option name="titleSlug" value="consecutive-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T18_FourSum.java">
           <value>
             <LeetcodeEditor>
