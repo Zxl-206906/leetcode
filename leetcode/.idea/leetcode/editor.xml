@@ -790,8 +790,30 @@
               <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T181_EmployeesEarningMoreThanTheirManagers.md" />
               <option name="frontendQuestionId" value="leetcode.cn181" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.sql" />
               <option name="titleSlug" value="employees-earning-more-than-their-managers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T181_EmployeesEarningMoreThanTheirManagers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn181" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.sql" />
+              <option name="titleSlug" value="employees-earning-more-than-their-managers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T182_DuplicateEmails.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T182_DuplicateEmails.md" />
+              <option name="frontendQuestionId" value="leetcode.cn182" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T182_DuplicateEmails.sql" />
+              <option name="titleSlug" value="duplicate-emails" />
             </LeetcodeEditor>
           </value>
         </entry>
