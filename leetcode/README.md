@@ -200,3 +200,4 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T180_ConsecutiveNumbers 连续出出现的数字 
    - T181_EmployeesEarningMoreThanTheirManagers 超过经理的收入
    - T182_DuplicateEmails 查找重复的邮箱
+   - T3218_MinimumCostForCuttingCakeI 切蛋糕的最小总开
