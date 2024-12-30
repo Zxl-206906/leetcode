@@ -894,6 +894,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T193_ValidPhoneNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T193_ValidPhoneNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn193" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T193_ValidPhoneNumbers.java" />
+              <option name="titleSlug" value="valid-phone-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T195_TenthLine.java">
           <value>
             <LeetcodeEditor>
