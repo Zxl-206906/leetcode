@@ -927,6 +927,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T196_DeleteDuplicateEmails.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T196_DeleteDuplicateEmails.md" />
+              <option name="frontendQuestionId" value="leetcode.cn196" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T196_DeleteDuplicateEmails.java" />
+              <option name="titleSlug" value="delete-duplicate-emails" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T19_RemoveNthNodeFromEndOfList.java">
           <value>
             <LeetcodeEditor>
