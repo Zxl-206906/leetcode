@@ -201,3 +201,7 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T181_EmployeesEarningMoreThanTheirManagers 超过经理的收入
    - T182_DuplicateEmails 查找重复的邮箱
    - T3218_MinimumCostForCuttingCakeI 切蛋糕的最小总开
+
+#### 23. 2024年12月30日
+   - T183_CustomersWhoNeverOrder 从不订购的客户
+   - T195_TenthLine 第十行

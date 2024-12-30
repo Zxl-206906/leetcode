@@ -817,6 +817,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T183_CustomersWhoNeverOrder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T183_CustomersWhoNeverOrder.md" />
+              <option name="frontendQuestionId" value="leetcode.cn183" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T183_CustomersWhoNeverOrder.java" />
+              <option name="titleSlug" value="customers-who-never-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T184_DepartmentHighestSalary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T184_DepartmentHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn184" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T184_DepartmentHighestSalary.java" />
+              <option name="titleSlug" value="department-highest-salary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T18_FourSum.java">
           <value>
             <LeetcodeEditor>
@@ -825,6 +847,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/T18_FourSum.java" />
               <option name="titleSlug" value="4sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T195_TenthLine.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T195_TenthLine.md" />
+              <option name="frontendQuestionId" value="leetcode.cn195" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T195_TenthLine.java" />
+              <option name="titleSlug" value="tenth-line" />
             </LeetcodeEditor>
           </value>
         </entry>
