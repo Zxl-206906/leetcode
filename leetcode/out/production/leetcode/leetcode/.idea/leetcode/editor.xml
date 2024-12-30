@@ -663,6 +663,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T169_MajorityElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T169_MajorityElement.md" />
+              <option name="frontendQuestionId" value="leetcode.cn169" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T169_MajorityElement.java" />
+              <option name="titleSlug" value="majority-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T16_ThreeSumClosest.java">
           <value>
             <LeetcodeEditor>
@@ -671,6 +682,83 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/T16_ThreeSumClosest.java" />
               <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T1705_MaximumNumberOfEatenApples.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T1705_MaximumNumberOfEatenApples.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1705" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T1705_MaximumNumberOfEatenApples.java" />
+              <option name="titleSlug" value="maximum-number-of-eaten-apples" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T171_ExcelSheetColumnNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T171_ExcelSheetColumnNumber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn171" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T171_ExcelSheetColumnNumber.java" />
+              <option name="titleSlug" value="excel-sheet-column-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T172_FactorialTrailingZeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T172_FactorialTrailingZeroes.md" />
+              <option name="frontendQuestionId" value="leetcode.cn172" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T172_FactorialTrailingZeroes.java" />
+              <option name="titleSlug" value="factorial-trailing-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T176_SecondHighestSalary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T176_SecondHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn176" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T176_SecondHighestSalary.java" />
+              <option name="titleSlug" value="second-highest-salary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T177_NthHighestSalary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T177_NthHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn177" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T177_NthHighestSalary.java" />
+              <option name="titleSlug" value="nth-highest-salary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T178_RankScores.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T178_RankScores.md" />
+              <option name="frontendQuestionId" value="leetcode.cn178" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T178_RankScores.java" />
+              <option name="titleSlug" value="rank-scores" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T179_LargestNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T179_LargestNumber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn179" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T179_LargestNumber.java" />
+              <option name="titleSlug" value="largest-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -685,6 +773,83 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T180_ConsecutiveNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T180_ConsecutiveNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn180" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T180_ConsecutiveNumbers.java" />
+              <option name="titleSlug" value="consecutive-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T181_EmployeesEarningMoreThanTheirManagers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn181" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.sql" />
+              <option name="titleSlug" value="employees-earning-more-than-their-managers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T181_EmployeesEarningMoreThanTheirManagers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn181" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T181_EmployeesEarningMoreThanTheirManagers.sql" />
+              <option name="titleSlug" value="employees-earning-more-than-their-managers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T182_DuplicateEmails.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T182_DuplicateEmails.md" />
+              <option name="frontendQuestionId" value="leetcode.cn182" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T182_DuplicateEmails.sql" />
+              <option name="titleSlug" value="duplicate-emails" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T183_CustomersWhoNeverOrder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T183_CustomersWhoNeverOrder.md" />
+              <option name="frontendQuestionId" value="leetcode.cn183" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T183_CustomersWhoNeverOrder.java" />
+              <option name="titleSlug" value="customers-who-never-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T184_DepartmentHighestSalary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T184_DepartmentHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn184" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T184_DepartmentHighestSalary.java" />
+              <option name="titleSlug" value="department-highest-salary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T185_DepartmentTopThreeSalaries.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T185_DepartmentTopThreeSalaries.md" />
+              <option name="frontendQuestionId" value="leetcode.cn185" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T185_DepartmentTopThreeSalaries.java" />
+              <option name="titleSlug" value="department-top-three-salaries" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T18_FourSum.java">
           <value>
             <LeetcodeEditor>
@@ -693,6 +858,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/T18_FourSum.java" />
               <option name="titleSlug" value="4sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T190_ReverseBits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T190_ReverseBits.md" />
+              <option name="frontendQuestionId" value="leetcode.cn190" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T190_ReverseBits.java" />
+              <option name="titleSlug" value="reverse-bits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T195_TenthLine.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T195_TenthLine.md" />
+              <option name="frontendQuestionId" value="leetcode.cn195" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T195_TenthLine.java" />
+              <option name="titleSlug" value="tenth-line" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -762,6 +949,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T2545_SortTheStudentsByTheirKthScore.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T2545_SortTheStudentsByTheirKthScore.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2545" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T2545_SortTheStudentsByTheirKthScore.java" />
+              <option name="titleSlug" value="sort-the-students-by-their-kth-score" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T25_ReverseNodesInKGroup.java">
           <value>
             <LeetcodeEditor>
@@ -806,6 +1004,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T2973_FindNumberOfCoinsToPlaceInTreeNodes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T2973_FindNumberOfCoinsToPlaceInTreeNodes.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2973" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T2973_FindNumberOfCoinsToPlaceInTreeNodes.java" />
+              <option name="titleSlug" value="find-number-of-coins-to-place-in-tree-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T29_DivideTwoIntegers.java">
           <value>
             <LeetcodeEditor>
@@ -836,6 +1045,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/T31_NextPermutation.java" />
               <option name="titleSlug" value="next-permutation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T3218_MinimumCostForCuttingCakeI.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T3218_MinimumCostForCuttingCakeI.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3218" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T3218_MinimumCostForCuttingCakeI.java" />
+              <option name="titleSlug" value="minimum-cost-for-cutting-cake-i" />
             </LeetcodeEditor>
           </value>
         </entry>
