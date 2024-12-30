@@ -206,3 +206,5 @@ Leetcode刷题仓库，题目有多种解法时候，会以后缀 2 3 结尾，�
    - T183_CustomersWhoNeverOrder 从不订购的客户
    - T195_TenthLine 第十行
    - T184_DepartmentHighestSalary 部门工资最高的员工
+   - T185_DepartmentTopThreeSalaries 部门工资前三高的所有员工（未AC）
+   - T190_ReverseBits 颠倒二进制位
