@@ -883,6 +883,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T192_WordFrequency.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T192_WordFrequency.md" />
+              <option name="frontendQuestionId" value="leetcode.cn192" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T192_WordFrequency.java" />
+              <option name="titleSlug" value="word-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T195_TenthLine.java">
           <value>
             <LeetcodeEditor>
