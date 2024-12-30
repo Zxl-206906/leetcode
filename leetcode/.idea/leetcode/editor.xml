@@ -905,6 +905,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T194_TransposeFile.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T194_TransposeFile.md" />
+              <option name="frontendQuestionId" value="leetcode.cn194" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T194_TransposeFile.java" />
+              <option name="titleSlug" value="transpose-file" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T195_TenthLine.java">
           <value>
             <LeetcodeEditor>
