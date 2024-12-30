@@ -36,4 +36,5 @@ day 1
 <div><li>👍 235</li><li>👎 0</li></div>
 
 
-cat words.txt | tr ' ' '\n' | sort | uniq -c | sort -nr | awk '{print $2, $1}'
+cat words.txt | tr -s ' ' '\n' | sort | uniq -c | sort -r | awk '{ print $2, $1 }'
+
