@@ -960,6 +960,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T199_BinaryTreeRightSideView.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T199_BinaryTreeRightSideView.md" />
+              <option name="frontendQuestionId" value="leetcode.cn199" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T199_BinaryTreeRightSideView.java" />
+              <option name="titleSlug" value="binary-tree-right-side-view" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T19_RemoveNthNodeFromEndOfList.java">
           <value>
             <LeetcodeEditor>
