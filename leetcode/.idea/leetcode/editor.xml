@@ -938,6 +938,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/T197_RisingTemperature.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/T197_RisingTemperature.md" />
+              <option name="frontendQuestionId" value="leetcode.cn197" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/T197_RisingTemperature.java" />
+              <option name="titleSlug" value="rising-temperature" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/T19_RemoveNthNodeFromEndOfList.java">
           <value>
             <LeetcodeEditor>
